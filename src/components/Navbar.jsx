@@ -38,7 +38,7 @@ const Navbar = () => {
       <ul className="md:inline-flex items-center hidden">
         <li className="px-2 md:px-4">
           <Link
-            to="/"
+            to="/reactModernBlog"
             className="text-purple-600 font-semibold hover:text-purple-500"
           >
             {" "}
@@ -87,7 +87,7 @@ const Navbar = () => {
       <ul className="sm:hidden">
       <li className="px-2 md:px-4">
           <Link
-            to="/"
+            to="/reactModernBlog"
             className="text-purple-600 font-semibold hover:text-purple-500"
           >
             <FaBars />

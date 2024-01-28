@@ -12,15 +12,15 @@ import SingleBlog from './pages/blogs/SingleBlog.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactModernBlog",
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/reactModernBlog",
         element: <Home/>,
       },
       {
-        path: "/blogs/:id",
+        path: "/reactModernBlog/blogs/:id",
         element: <SingleBlog/>
       }
     ]

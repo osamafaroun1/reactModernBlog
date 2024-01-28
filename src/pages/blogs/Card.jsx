@@ -8,7 +8,7 @@ const Card = ({ blog }) => {
     <div>
       <Link
         className="block rounded w-full lg:flex mb-10"
-        to={`/blogs/${blog.id}`}
+        to={`/reactModernBlog/blogs/${blog.id}`}
       >
         <div
           className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75"

@@ -17,7 +17,7 @@ const Search = () => {
     // console.log(dispatch(searched(input)))
 
     if (!match) {
-      navigate("/");
+      navigate("/reactModernBlog");
     }
     setInput("")
   };

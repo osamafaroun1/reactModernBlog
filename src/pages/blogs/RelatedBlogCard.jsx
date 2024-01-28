@@ -7,7 +7,7 @@ const {title,image, content, author, authorPic, category } = blog || {};
   return (
     <div className="p-4 md:w-1/3">
     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-     <Link  to={`/blogs/${blog.id}`}> <img
+     <Link  to={`/reactModernBlog/blogs/${blog.id}`}> <img
         className="lg:h-48 md:h-36 w-full object-cover object-center"
         src={image}
         alt="blog"
@@ -16,14 +16,14 @@ const {title,image, content, author, authorPic, category } = blog || {};
         <p className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
           {category}
         </p>
-       <Link  to={`/blogs/${blog.id}`}> <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+       <Link  to={`/reactModernBlog/blogs/${blog.id}`}> <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
           {title.slice(0, 72) + "..."}
         </h1></Link>
         <p className="leading-relaxed mb-3">
           {content.slice(0, 50) + "..."}
         </p>
         <div className="flex items-center flex-wrap ">
-          <Link to={`/blogs/1`} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+          <Link to={`/reactModernBlog/blogs/1`} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
             Learn More
             <svg
               className="w-4 h-4 ml-2"
