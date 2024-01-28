@@ -117,7 +117,7 @@ const {title,image, content, author, authorPic, category } = blog || {};
         </div>
         <div className="flex items-center space-x-2 mt-8"> 
         <a
-          href="/"
+          href="/reactModernBlog"
           className="text-green-700 inline-flex items-center justify-center"
         >
           Back to Blogs
